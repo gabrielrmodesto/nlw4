@@ -25,7 +25,7 @@ export function Countdown() {
 
     return (
         <div>
-            <div className={styles.coutdownContainer}>
+            <div className={styles.countdownContainer}>
                 <div>
                     <span>{minuteLeft}</span>
                     <span>{minuteRight}</span>
@@ -36,7 +36,7 @@ export function Countdown() {
                     <span>{secondRight}</span>
                 </div>
             </div>
-            <button type="button" className={styles.coutdownButton} onClick={startCountdown}>
+            <button type="button" className={styles.countdownButton} onClick={startCountdown}>
                 Iniciar um ciclo
             </button>
         </div>
