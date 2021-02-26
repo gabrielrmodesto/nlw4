@@ -7,23 +7,23 @@ import { Profile } from '../components/Profile';
 import styles from '../styles/pages/Home.module.css';
 
 export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Iníco | move.IT</title>
-      </Head>
-      <ExperienceBar />
+	return (
+		<div className={styles.container}>
+			<Head>
+				<title>Iníco | move.IT</title>
+			</Head>
+			<ExperienceBar />
 
-      <section>
-        <div>
-          <Profile />
-          <CompleteChallenges />
-          <Countdown />
-        </div>
-        <div>
-          <ChallengeBox />
-        </div>
-      </section>
-    </div>
-  );
+			<section>
+				<div>
+					<Profile />
+					<CompleteChallenges />
+					<Countdown />
+				</div>
+				<div>
+					<ChallengeBox />
+				</div>
+			</section>
+		</div>
+	);
 }
